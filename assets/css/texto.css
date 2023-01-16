@@ -1,0 +1,43 @@
+.texto-justificado{
+    /*text-align: justify;*/
+    color: black;
+    }
+
+/* TIPOS DE PREVENCION */
+.bg-verde{
+    background-color: rgb(197, 253, 175);
+  }
+  
+  .bg-ama{
+    background-color: rgb(249, 255, 169);
+  }
+  
+  .bg-red{
+    background-color: #ffbfaa;
+  }
+  .bg-morado{
+    background-color: rgba(228, 169, 255, 0.541);
+  }
+
+  /* TARJETAS */
+.txt_titulocard{
+    text-align: center;
+    color: black;
+  }
+  
+  .txt_pcard{
+    text-align: justify;
+    font-size: 15px;
+  }
+  .txt_pcard > small{
+    display: block;
+    text-align: right;
+  }
+  #imgcard{
+    display: block;
+    width: 90%; 
+    margin: auto; 
+  }
+  .txtol{
+    margin-left: 30px;
+  }
