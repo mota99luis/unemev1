@@ -604,6 +604,10 @@ Default Btn
           transform: scale(0);
 }
 
+.letra{
+  color: black;
+}
+
 /*
 Section Title
 ================================*/
@@ -3260,7 +3264,7 @@ Contact Area CSS
 .contact-area .contact-form form {
   text-align: center;
 }
-
+/*
 .contact-area .contact-form form .form-control {
   background-color: #ffffff;
   border: none;
@@ -3288,7 +3292,7 @@ Contact Area CSS
   cursor: pointer;
   margin-top: 20px;
 }
-
+*/
 .map-area iframe {
   height: 500px;
   width: 100%;
