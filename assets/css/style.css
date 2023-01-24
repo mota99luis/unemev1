@@ -124,22 +124,22 @@ ul {
   color: #6e6e6e;
   border: 1px solid #ebebeb;
   background-color: transparent;
-  /*border-radius: 5;*/
+  border-radius: 0;
   padding: 0;
   font-size: 15px;
   padding: 10px 20px;
   width: 100%;
 }
 
-.form-control::-webkit-input-placeholder .form-select {
+.form-control::-webkit-input-placeholder {
   color: #6e6e6e;
 }
 
-.form-control:-ms-input-placeholder .form-select {
+.form-control:-ms-input-placeholder {
   color: #6e6e6e;
 }
 
-.form-control::-ms-input-placeholder .form-select {
+.form-control::-ms-input-placeholder {
   color: #6e6e6e;
 }
 
@@ -190,7 +190,7 @@ textarea.form-control {
 
 /*
 Preloader Style
-================================*/s
+================================*/
 .preloader {
   position: fixed;
   left: 0;
@@ -457,7 +457,7 @@ Video wave Style
 .video-btn {
   display: inline-block;
   width: 60px;
-  height: 60px;  
+  height: 60px;
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
@@ -1834,7 +1834,7 @@ Footer Top Area CSS
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #006400;
+  background-color: darkgreen;
   opacity: 0.1;
   z-index: -1;
 }
@@ -2569,7 +2569,7 @@ blockquote::after {
 .comments-area .comment-respond label {
   display: block;
   font-weight: 500;
-  color: #000000;
+  color: #151d41;
   margin-bottom: 5px;
 }
 
@@ -2775,7 +2775,7 @@ blockquote::after {
 .comments-area .comment-respond .comment-form-cookies-consent label {
   display: inline-block;
   margin: 0;
-  color: #100505e3;
+  color: #666666;
   font-weight: normal;
 }
 
@@ -2852,11 +2852,6 @@ Sidebar Widget Area Style
 .widget-area .widget_search form label {
   display: block;
   margin-bottom: 0;
-  color: black;
-}
-
-.letra{
-  color:black;
 }
 
 .widget-area .widget_search form .screen-reader-text {
@@ -3265,8 +3260,8 @@ Contact Area CSS
 .contact-area .contact-form form {
   text-align: center;
 }
-/*
-.contact-area .contact-form form .form-control .form-select{
+
+.contact-area .contact-form form .form-control {
   background-color: #ffffff;
   border: none;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
@@ -3284,7 +3279,7 @@ Contact Area CSS
   text-align: left;
 }
 
-.contact-area .contact-form form textarea .form-control .form-select {
+.contact-area .contact-form form textarea.form-control {
   height: auto;
   padding-top: 15px;
 }
@@ -3293,7 +3288,7 @@ Contact Area CSS
   cursor: pointer;
   margin-top: 20px;
 }
-*/
+
 .map-area iframe {
   height: 500px;
   width: 100%;
