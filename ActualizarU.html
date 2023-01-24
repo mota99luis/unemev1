@@ -149,16 +149,24 @@
 								<center>
 									<h1>Usuarios Registrados</h1>
 								</center>
+								<div align="left" class="col-md-4">
+                                    <input class="form-select" type="search" name="CURP" id="CURP" class="form-control" minlength="18" maxlength="18" placeholder="CURP"  pattern="[A-Za-z0-9]+">               
+                                </div>
+                                            <br>
+                                <div class="col-md-2">
+                                    <button class="btn btn-primary">Buscar</button>
+                                </div>
+                                        
                                 <table class="table table-hover">
                                     <thead class="table-active">
                                         <th>
-                                            Datos
+                                            Nombre
                                         </th>
                                         <th>
-                                            Datos
+                                            Apellido
                                         </th>
                                         <th>
-                                            Datos
+                                            CURP
                                         </th>
                                         <th>
                                             Función
@@ -176,8 +184,9 @@
                                                 Datos
                                             </td>
                                             <td>
-                                                <button class="btn btn-primary" type="submit" href="ActualizaDatos.html" >Actualizar</button>
-												
+												<a href="ActualizaDatos.html">
+                                                	<button class="btn btn-primary" >Actualizar</button>
+												</a>												
                                             </td>
                                         </tr>
                                         <tr>
@@ -191,7 +200,9 @@
                                                 Datos
                                             </td>
                                             <td>
-                                                <button class="btn btn-primary" type="submit" href="ActualizaDatos.html" >Actualizar</button>
+												<a href="ActualizaDatos.html">
+                                                	<button class="btn btn-primary">Actualizar</button>
+												</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -205,7 +216,9 @@
                                                 Datos
                                             </td>
                                             <td>
-                                                <button class="btn btn-primary" type="submit" href="ActualizaDatos.html" >Actualizar</button>
+												<a href="ActualizaDatos.html">
+                                                	<button class="btn btn-primary">Actualizar</button>
+												</a>
                                             </td>
                                         </tr>
                                     </tbody>
