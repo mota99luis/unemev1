@@ -106,7 +106,7 @@
 											<a href="paciente.html" class="nav-link active">Paciente</a>
 										</li>
 										<li class="nav-item">
-											<a href="ActualizarU.html" class="nav-link active">Visualización de Datos</a>
+											<a href="Usuarios.html" class="nav-link active">Usuario</a>
 										</li>
 										<li class="nav-item">
 											<a href="index-2.html" class="nav-link active">
@@ -135,106 +135,68 @@
 						<div class="col-lg-12">
 							<div style="margin-top: 5%;">
 								<center>
-									<h1>Registro De Usuario</h1>
+									<h1>Usuarios Registrados</h1>
 								</center>
-								<form action="#" method="post" enctype="multipart/form-data" class="row g-3 formulario mt-5 border border-2 rounded-3 p-5 bg-light was-validated">
-									<h2>¡Bienvenido!</h2>
-									<h3>Ingrese los datos</h3>
-									<div class="col-md-4">
-										<label class="letra" for="nombre"><b>Nombre:</b></label>
-										<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" minlength="3" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-									<div class="col-md-4">
-										<label class="letra"  for="ap_paterno"><b>Apellido Paterno:</b></label>
-										<input type="text" name="ap_paterno" id="apPaterno" class="form-control" placeholder="Ingrese Apellido Paterno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="ap_materno"><b>Apellido Materno:</b></label>
-										<input type="text" name="ap_materno" id="apMaterno" class="form-control" placeholder="Ingrese Apellido Materno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="correo"><b>Correo:</b></label>
-										<input type="email" name="correo" id="correo" class="form-control" placeholder="test@ejemplo.com" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="password"><b>Contraseña:</b></label>
-										<input type="password" name="contra" id="password" class="form-control" minlength="8" title="Ingrese más de 8 caracteres" placeholder="Ingrese su contraseña" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="telefono">  
-											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
-												<path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
-											</svg>
-										<b>Teléfono:</b></label>
-										<input type="tel" name="telefono" id="telefono" class="form-control" placeholder="Teléfono" minlength="10" maxlength="10" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="Ingrese solo números" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="curp"><b>CURP:</b></label>
-										<input type="text" name="curp" id="curp" class="form-control" placeholder="Ingrese su CURP" maxlength="18" pattern="[A-Z0-9]+" title="Ingrese letras Mayúsculas y números" required>
-									</div>
-									<div class="col-md-6">
-										<label for="rfc"><b>RFC:</b></label>
-										<input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese su RFC" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label for="cedula"><b>Cédula Profesional:</b></label>
-										<input type="text" name="cedula" id="cedula" class="form-control" placeholder="Ingrese su Cedula" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="tipoUsuario"><b>Tipo de Usuario:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de usuarios</option>
-											<option value="1">Usuario</option>
-											<option value="2">Administrador</option>
-										</select>
-									</div>
-									<div class="col-md-6">
-										<label for="tipoPlaza"><b>Tipo de Plaza:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de plaza</option>
-											<option value="Base">Base</option>
-											<option value="Regularizada">Regularizada</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="unidad"><b>Unidad:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione la Unidad</option>
-											<option value="UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO">UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="clues"><b>Clues:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el Clues</option>
-											<option value="PLSSA016024">PLSSA016024</option>
-											<option value="PLSSA016025">PLSSA016025</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="puesto"><b>Puesto:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el puesto</option>
-											<option value="RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA">RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA</option>
-											<option value="PSICOLOGA CLINICA">PSICOLOGA CLINICA</option>
-											<option value="MEDICA GENERAL A">MEDICA GENERAL A</option>
-											<option value="MEDICO GENERAL A">MEDICO GENERAL A</option>
-											<option value="TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A">TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A</option>
-										</select>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="fechaB"><b>Fecha Baja:</b></label>
-										<input type="date" name="fechaB" id="fechaB" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
-										
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="fechaA"><b>Fecha Alta:</b></label>
-										<input type="date" name="fechaA" id="fechaA" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
-									</div>
-									<div class="col-md-12">
-										<button class="btn btn-success text-white" type="submit" name="enviar">Registrar</button>
-									</div>
-								</form>
+                                <table class="table table-hover">
+                                    <thead class="table-active">
+                                        <th>
+                                            Datos
+                                        </th>
+                                        <th>
+                                            Datos
+                                        </th>
+                                        <th>
+                                            Datos
+                                        </th>
+                                        <th>
+                                            Función
+                                        </th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-primary">Actualizar</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-primary">Actualizar</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                Datos
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-primary">Actualizar</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 							</div>
 						</div>
 					</div>

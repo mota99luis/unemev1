@@ -1,0 +1,32 @@
+
+<html>
+    <head>
+        <script type="text/javascript">
+        function add(){
+        var text = document.getElementById("text");
+        var nombre = document.getElementById("nombre");
+        
+        var opt = document.createElement("option");
+        
+        opt.appendChild(document.createTextNode(text.value));
+        opt.setAttribute("value", text.value);
+        
+        nombre.appendChild(opt);
+        }
+        
+        function see(){
+        alert(document.getElementById("nombre").value);
+        }
+        </script>
+    </head>
+    <body>
+        <form action="prue.php" method="post" enctype="multipart/form-data">
+            <select name="nombre" id="nombre">
+                <option value="uno">uno</option>
+                <option value="dos">dos</option>
+                <option value="tres">tres</option>
+            </select> Valor seleccionado: <input type="button" onclick="see();" value="Ver" /><br/>
+            Agregar opción: <input type="text" id="text"><input type="submit" name="enviar" onclick="add();" value="Agregar" /><br/>
+        </form
+    </body>
+</html>
