@@ -124,7 +124,7 @@ ul {
   color: #6e6e6e;
   border: 1px solid #ebebeb;
   background-color: transparent;
-  border-radius: 0;
+  /*border-radius: 0;*/
   padding: 0;
   font-size: 15px;
   padding: 10px 20px;
