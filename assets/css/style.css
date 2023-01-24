@@ -119,6 +119,19 @@ ul {
   margin: 0;
 }
 
+.form-select
+{
+  height: 50px;
+  color: #6e6e6e;
+  border: 1px solid #ebebeb;
+  background-color: transparent;
+  /*border-radius: 0;*/
+  padding: 0;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
 .form-control {
   height: 50px;
   color: #6e6e6e;
@@ -133,18 +146,22 @@ ul {
 
 .form-control::-webkit-input-placeholder {
   color: #6e6e6e;
+  font-size: 15px;
 }
 
 .form-control:-ms-input-placeholder {
   color: #6e6e6e;
+font-size: 15px;
 }
 
 .form-control::-ms-input-placeholder {
   color: #6e6e6e;
+font-size: 15px;
 }
 
 .form-control::placeholder {
   color: #6e6e6e;
+  font-size: 15px;
 }
 
 .form-control:focus {
