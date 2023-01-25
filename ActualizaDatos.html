@@ -106,7 +106,7 @@
 											<a href="paciente.html" class="nav-link active">Paciente</a>
 										</li>
 										<li class="nav-item">
-											<a href="ActualizarU.html" class="nav-link active">Visualización de Paciente</a>
+											<a href="vistaPaciente.html" class="nav-link active">Visualización de Paciente</a>
 										</li>
 										<li class="nav-item">
 											<a href="ActualizarU.html" class="nav-link active">Visualización de Usuarios</a>
@@ -150,8 +150,8 @@
 									<h1>Actualiza Los Datos Del Usuario Registrado</h1>
 								</center>
 								<form action="#" method="post" enctype="multipart/form-data" class="row g-3 formulario mt-5 border border-2 rounded-3 p-5 bg-light was-validated">
-									<h2>¡Bienvenido!</h2>
-									<h3>Ingrese los datos</h3>
+									<h2>Paso 1</h2>
+									<h3>Datos Generales</h3>
 									<div class="col-md-4">
 										<label class="letra" for="nombre"><b>Nombre:</b></label>
 										<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" minlength="3" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
@@ -184,56 +184,6 @@
 										<label class="letra" for="curp"><b>CURP:</b></label>
 										<input type="text" name="curp" id="curp" class="form-control" placeholder="Ingrese su CURP" maxlength="18" pattern="[A-Z0-9]+" title="Ingrese letras Mayúsculas y números" required>
 									</div>
-									<div class="col-md-6">
-										<label for="rfc"><b>RFC:</b></label>
-										<input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese su RFC" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label for="cedula"><b>Cédula Profesional:</b></label>
-										<input type="text" name="cedula" id="cedula" class="form-control" placeholder="Ingrese su Cedula" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="tipoUsuario"><b>Tipo de Usuario:</b></label>
-										<select class="form-select form-select-md" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de usuarios</option>
-											<option value="1">Usuario</option>
-											<option value="2">Administrador</option>
-										</select>
-									</div>
-									<div class="col-md-6">
-										<label for="tipoPlaza"><b>Tipo de Plaza:</b></label>
-										<select class="form-select form-select-lg" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de plaza</option>
-											<option value="Base">Base</option>
-											<option value="Regularizada">Regularizada</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="unidad"><b>Unidad:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione la Unidad</option>
-											<option value="UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO">UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="clues"><b>Clues:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el Clues</option>
-											<option value="PLSSA016024">PLSSA016024</option>
-											<option value="PLSSA016025">PLSSA016025</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="puesto"><b>Puesto:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el puesto</option>
-											<option value="RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA">RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA</option>
-											<option value="PSICOLOGA CLINICA">PSICOLOGA CLINICA</option>
-											<option value="MEDICA GENERAL A">MEDICA GENERAL A</option>
-											<option value="MEDICO GENERAL A">MEDICO GENERAL A</option>
-											<option value="TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A">TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A</option>
-										</select>
-									</div>
 									<!--<div class="col-md-6">
 										<label class="letra" for="fechaB"><b>Fecha Baja:</b></label>
 										<input type="date" name="fechaB" id="fechaB" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
@@ -243,8 +193,8 @@
 										<label class="letra" for="fechaA"><b>Fecha Alta:</b></label>
 										<input type="date" name="fechaA" id="fechaA" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
 									</div>-->
-									<div class="col-md-12">
-										<button class="btn btn-success text-white" type="submit" name="enviar">Registrar</button>
+									<div class="col-12">
+										<a class="btn btn-success text-white" href="ActualizaDatos02.html" type="submit" name="enviar">Siguiente</a>
 									</div>
 								</form>
 							</div>

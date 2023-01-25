@@ -5,7 +5,7 @@
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+		
         <!-- Bootstrap Min CSS --> 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!-- Owl Theme Default Min CSS --> 
@@ -86,7 +86,7 @@
 			<div class="navbar-area">
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
-					<a href="index.html" class="logo">
+					<a href="index-2.html" class="logo">
 						<img src="./imagenes/LogoUneme1.png" alt="Uneme Logo">
 					</a>
 				</div>
@@ -96,7 +96,7 @@
 					<div class="main-nav">
 						<nav class="navbar navbar-expand-md navbar-light">
 							<div class="container-fluid">
-								<a class="navbar-brand" href="index.html">
+								<a class="navbar-brand" href="index-2.html">
 									<img src="imagenes/LogoUneme1.png" alt="UNEME Logo">
 								</a>
 		
@@ -106,7 +106,7 @@
 											<a href="paciente.html" class="nav-link active">Paciente</a>
 										</li>
 										<li class="nav-item">
-											<a href="ActualizarU.html" class="nav-link active">Visualización de Paciente</a>
+											<a href="vistaPaciente.html" class="nav-link active">Visualización de Paciente</a>
 										</li>
 										<li class="nav-item">
 											<a href="ActualizarU.html" class="nav-link active">Visualización de Usuarios</a>
@@ -150,8 +150,11 @@
 									<h1>Registro De Usuario</h1>
 								</center>
 								<form action="#" method="post" enctype="multipart/form-data" class="row g-3 formulario mt-5 border border-2 rounded-3 p-5 bg-light was-validated">
-									<h2>¡Bienvenido!</h2>
-									<h3>Ingrese los datos</h3>
+									<div class="progress">
+										<div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<h2>Paso 1</h2>
+									<h3>Datos Generales</h3>
 									<div class="col-md-4">
 										<label class="letra" for="nombre"><b>Nombre:</b></label>
 										<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" minlength="3" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
@@ -184,56 +187,6 @@
 										<label class="letra" for="curp"><b>CURP:</b></label>
 										<input type="text" name="curp" id="curp" class="form-control" placeholder="Ingrese su CURP" maxlength="18" pattern="[A-Z0-9]+" title="Ingrese letras Mayúsculas y números" required>
 									</div>
-									<div class="col-md-6">
-										<label for="rfc"><b>RFC:</b></label>
-										<input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese su RFC" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label for="cedula"><b>Cédula Profesional:</b></label>
-										<input type="text" name="cedula" id="cedula" class="form-control" placeholder="Ingrese su Cedula" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
-									</div>
-									<div class="col-md-6">
-										<label class="letra" for="tipoUsuario"><b>Tipo de Usuario:</b></label>
-										<select class="form-select form-select-md" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de usuarios</option>
-											<option value="1">Usuario</option>
-											<option value="2">Administrador</option>
-										</select>
-									</div>
-									<div class="col-md-6">
-										<label for="tipoPlaza"><b>Tipo de Plaza:</b></label>
-										<select class="form-select form-select-lg" aria-label="Default select example">
-											<option disabled selected>Seleccione el tipo de plaza</option>
-											<option value="Base">Base</option>
-											<option value="Regularizada">Regularizada</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="unidad"><b>Unidad:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione la Unidad</option>
-											<option value="UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO">UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="clues"><b>Clues:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el Clues</option>
-											<option value="PLSSA016024">PLSSA016024</option>
-											<option value="PLSSA016025">PLSSA016025</option>
-										</select>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="puesto"><b>Puesto:</b></label>
-										<select class="form-select" aria-label="Default select example">
-											<option disabled selected>Seleccione el puesto</option>
-											<option value="RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA">RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA</option>
-											<option value="PSICOLOGA CLINICA">PSICOLOGA CLINICA</option>
-											<option value="MEDICA GENERAL A">MEDICA GENERAL A</option>
-											<option value="MEDICO GENERAL A">MEDICO GENERAL A</option>
-											<option value="TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A">TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A</option>
-										</select>
-									</div>
 									<!--<div class="col-md-6">
 										<label class="letra" for="fechaB"><b>Fecha Baja:</b></label>
 										<input type="date" name="fechaB" id="fechaB" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
@@ -243,8 +196,8 @@
 										<label class="letra" for="fechaA"><b>Fecha Alta:</b></label>
 										<input type="date" name="fechaA" id="fechaA" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
 									</div>-->
-									<div class="col-md-12">
-										<button class="btn btn-success text-white" type="submit" name="enviar">Registrar</button>
+									<div class="col-12">
+										<a class="btn btn-success text-white" href="Usuario1.html" type="submit" name="enviar">Siguiente</a>
 									</div>
 								</form>
 							</div>
@@ -276,7 +229,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-sm-6 col-md-6">
 						<div class="single-widget">
-							<a href="index.html">
+							<a href="index-2.html">
 								<img src="imagenes/LogoUneme.ico" alt="">
 							</a>
 							<p>Sobre Nosotros:</p>

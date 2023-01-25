@@ -5,7 +5,7 @@
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+		
         <!-- Bootstrap Min CSS --> 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!-- Owl Theme Default Min CSS --> 
@@ -42,7 +42,7 @@
 
 		-->
 		<!-- Favicon 
-        <link rel="icon" type="image/png" href="assets/img/favicon.png"-->
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
         <!-- Title -->
         <title>UNEME CAPA</title>
 		<!-- Icono de la pagina -->
@@ -86,8 +86,8 @@
 			<div class="navbar-area">
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
-					<a href="index.html" class="logo">
-						<img src="imagenes/LogoUneme1.png" alt="Uneme Logo">
+					<a href="index-2.html" class="logo">
+						<img src="./imagenes/LogoUneme1.png" alt="Uneme Logo">
 					</a>
 				</div>
 
@@ -95,8 +95,8 @@
 				<div class="nivo-nav-one">
 					<div class="main-nav">
 						<nav class="navbar navbar-expand-md navbar-light">
-							<div class="container">
-								<a class="navbar-brand" href="index.html">
+							<div class="container-fluid">
+								<a class="navbar-brand" href="index-2.html">
 									<img src="imagenes/LogoUneme1.png" alt="UNEME Logo">
 								</a>
 		
@@ -106,18 +106,29 @@
 											<a href="paciente.html" class="nav-link active">Paciente</a>
 										</li>
 										<li class="nav-item">
-											<a href="vistaPaciente.html" class="nav-link active">Visualización De Datos</a>
+											<a href="vistaPaciente" class="nav-link active">Visualización de Paciente</a>
 										</li>
-										
 										<li class="nav-item">
-											<a href="index.html" class="nav-link active">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
-                                                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
-                                                </svg>
-                                                Salir
-                                            </a>
+											<a href="ActualizarU.html" class="nav-link active">Visualización de Usuarios</a>
 										</li>
+										<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+											<ul class="navbar-nav">
+												<li class="nav-item dropdown">
+												<a style="color:#16ac48" class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+													Administrador
+												</a>
+												<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+													<li><a class="dropdown-item" href="index.html">
+														<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+															<path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+														</svg>
+														Salir
+													</a></li>
+												</ul>
+												</li>
+											</ul>
+										</div>
 									</ul>
 								</div>
 							</div>
@@ -136,129 +147,79 @@
 						<div class="col-lg-12">
 							<div style="margin-top: 5%;">
 								<center>
-									<h1>Registro De Pacientes</h1>
+									<h1>Registro De Usuario</h1>
 								</center>
 								<form action="#" method="post" enctype="multipart/form-data" class="row g-3 formulario mt-5 border border-2 rounded-3 p-5 bg-light was-validated">
 									<div class="progress">
-										<div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+										<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									<h2>Paso 1</h2>
-									<h3>Datos Generales</h3>
-									<div class="col-md-4">
-										<label class="letra" for="P_nombre">Nombre:</label>
-										<input type="text" name="P_nombre" id="P_nombre" class="form-control" placeholder="Nombre" minlength="2" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
+									<h2>Paso 2</h2>
+									<h3>Datos de Unidad</h3>
+									<div class="col-md-6">
+										<label for="rfc"><b>RFC:</b></label>
+										<input type="text" name="rfc" id="rfc" class="form-control" placeholder="Ingrese su RFC" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
 									</div>
-									<div class="col-md-4">
-										<label class="letra" for="P_app">Apellido Paterno:</label>
-										<input type="text" name="P_app" id="P_app" class="form-control" placeholder="Apellido Paterno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
+									<div class="col-md-6">
+										<label for="cedula"><b>Cédula Profesional:</b></label>
+										<input type="text" name="cedula" id="cedula" class="form-control" placeholder="Ingrese su Cedula" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
 									</div>
-									<div class="col-md-4">
-										<label class="letra" for="ap_materno">Apellido Materno:</label>
-										<input type="text" name="P_apm" id="P_apm" class="form-control" placeholder="Apellido Materno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-                                    <div class="col-md-4">
-										<label  class="letra">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
-											<path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
-										</svg>
-										Teléfono:</label>
-										<!-- <input type="tel" name="P_telefono" id="P_telefono" class="form-control" placeholder="Numero Telefonico" pattern = "^ \ d {3} - \ d {3} - \ d {4} $" required> -->
-                                        <input type="tel" id="phone" name="phone" class="form-control" size="20"  minlength="9" maxlength="14" placeholder="222-333-4455" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                                    </div>
-                                    <div class="col-md-4">
-										<label class="letra" for="P_edad">Edad:</label>
-										<input type="number" name="P_edad" id="P_edad" class="form-control" placeholder="Edad" minlength="3" maxlength="40" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Ingrese solo numeros" required>
-									</div>
-
-									<div class="col-md-4">
-										<label class="letra" for="P_fecha_nac">Fecha de Nacimiento:</label>
-										<input type="date" name="P_fecha_nac" id="P_fecha_nac" class="form-control" title="Ingrese solo letras" required>
-									</div>
-
-                                    <div class="col-md-4">
-										<label class="letra" for="P_genero">Género:</label>
-										<select name="" id=""  class="form-select form-select lg" required>
-											<option value="" ></option>
-											<option value="Femenino">Femenino</option>
-											<option value="Masculino">Masculino</option>
+									<div class="col-md-6">
+										<label class="letra" for="tipoUsuario"><b>Tipo de Usuario:</b></label>
+										<select class="form-select form-select-md" aria-label="Default select example">
+											<option disabled selected>Seleccione el tipo de usuarios</option>
+											<option value="1">Usuario</option>
+											<option value="2">Administrador</option>
 										</select>
 									</div>
-
-                                    <div class="col-md-4">
-										<label class="letra" for="CURP">CURP:</label>
-										<input type="text" name="CURP" id="CURP" class="form-control" minlength="18" maxlength="18" placeholder="CURP"  pattern="[A-Za-z0-9]+" required>
-                                    </div>
-
-									<div class="col-md-4">
-										<label class="letra" for="correo">Correo:</label>
-										<input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@hotmail.com" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
-                                    </div>
-
 									<div class="col-md-6">
-										<label class="letra" for="P_genero">Grado Escolar:</label>
-										<select name="" id="" class="form-control" required>
-											<option value="" ></option>
-											<option value="Kinder">Kinder</option>
-											<option value="Primaria">Primaria</option>
-											<option value="Secundaria">Secundaria</option>
-											<option value="Preparatoria">Bachillerato/Preparatoria</option>
-											<option value="Universidad">Universiadad</option>
-											<option value="Maestria">Maestria</option>
-											<option value="Doctorado">Doctorado</option>
+										<label for="tipoPlaza"><b>Tipo de Plaza:</b></label>
+										<select class="form-select form-select-lg" aria-label="Default select example">
+											<option disabled selected>Seleccione el tipo de plaza</option>
+											<option value="Base">Base</option>
+											<option value="Regularizada">Regularizada</option>
 										</select>
 									</div>
-
-									<div class="col-md-6">
-										<label class="letra" for="Ocupacion">Ocupación:</label>
-										<input type="text" name="Ocupacion" id="Ocupacion" class="form-control" placeholder="Ocupación" minlength="2" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-
-									<div class="col-md-6">
-										<label class="letra" for="CURP">Dirección:</label>
-										<input type="text" name="direccion" id="direccion" class="form-control" placeholder="Dirección"  required>
-                                    </div>
-									<div class="col-md-6">
-										<label class="letra" for="P_nombre">Municipio:</label>
-										<input type="text" name="Municipio" id="Municipio" class="form-control" placeholder="Municipio" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-                                
-									<!-- <div class="col-md-6">
-										<svg aria-hidden="true" id="eye" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-											<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-											<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-									</svg>
-										<label for="password">Contraseña:</label>
-									<input type="password" name="contra" id="password" class="form-control" minlength="8" placeholder="Contraseña" required>
-									</div> -->
-
-                                    <!-- <div class="col-md-4">
-										<label for="P_fecha_crea">Fecha de Registro:</label>
-										<input type="date" name="P_fecha_crea" id="P_fecha_crea" class="form-control" placeholder="Ingresa tu nombre" minlength="3" title="Ingrese solo letras">
+									<div class="col-md-4">
+										<label class="letra" for="unidad"><b>Unidad:</b></label>
+										<select class="form-select" aria-label="Default select example">
+											<option disabled selected>Seleccione la Unidad</option>
+											<option value="UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO">UNEME CAPA SUR DR. EDUARDO VÁZQUEZ NAVARRO</option>
+										</select>
 									</div>
 									<div class="col-md-4">
-										<label for="P_fecha_baja">Fecha de Baja:</label>
-										<input type="date" name="P_fecha_baja" id="P_fecha_baja" class="form-control" placeholder="Apellido Paterno" minlength="3" maxlength="40"  title="Ingrese solo letras" >
+										<label class="letra" for="clues"><b>Clues:</b></label>
+										<select class="form-select" aria-label="Default select example">
+											<option disabled selected>Seleccione el Clues</option>
+											<option value="PLSSA016024">PLSSA016024</option>
+											<option value="PLSSA016025">PLSSA016025</option>
+										</select>
 									</div>
 									<div class="col-md-4">
-										<label for="P_fecha_alta">Fecha de Alta:</label>
-										<input type="date" name="P_fecha_alta" id="P_fecha_alta" class="form-control" placeholder="Apellido Materno" minlength="3" maxlength="40"  title="Ingrese solo letras" >
-									</div> -->
-									
-
-                                    <!-- <div class="col-md-6">
-                                        <label class="letra" for="P_fecha_baja">Fecha de Baja:</label>
-                                        <input type="date" name="P_fecha_baja" id="P_fecha_baja" class="form-control" >
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="letra" for="P_fecha_alta">Fecha de Alta:</label>
-                                        <input type="date" name="P_fecha_alta" id="P_fecha_alta" class="form-control">
-                                    </div> -->
-									<div class="col-md-12">
-										<a class="btn btn-success text-white" href="paciente02.html" type="submit" name="enviar">Siguiente</a>
+										<label class="letra" for="puesto"><b>Puesto:</b></label>
+										<select class="form-select" aria-label="Default select example">
+											<option disabled selected>Seleccione el puesto</option>
+											<option value="RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA">RESPONSABLE DE UNIDAD/PSICÓLOGA CLÍNICA</option>
+											<option value="PSICOLOGA CLINICA">PSICOLOGA CLINICA</option>
+											<option value="MEDICA GENERAL A">MEDICA GENERAL A</option>
+											<option value="MEDICO GENERAL A">MEDICO GENERAL A</option>
+											<option value="TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A">TRABAJADORA SOCIAL/ SUPERVISORA PROFESIONAL EN TRABAJO SOCIAL EN AREA A</option>
+										</select>
 									</div>
+									<!--<div class="col-md-6">
+										<label class="letra" for="fechaB"><b>Fecha Baja:</b></label>
+										<input type="date" name="fechaB" id="fechaB" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras letras y números" required>
+										
+									</div>
+									<div class="col-md-6">
+										<label class="letra" for="fechaA"><b>Fecha Alta:</b></label>
+										<input type="date" name="fechaA" id="fechaA" class="form-control" maxlength="18" pattern="[A-Za-z0-9]+" title="Ingrese letras y números" required>
+									</div>-->
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Registrar
+                                        </button>
+                                    </div>
 								</form>
-
-								
 							</div>
 						</div>
 					</div>
@@ -280,8 +241,25 @@
 				<img src="assets/img/shape/5.png" alt="Shape">
 			</div>
 		</section>
-		<!--DATOS DE LA UNIDAD MEDICA-->
 
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Expediente</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Estás seguro de salir sin acompletar el expediente?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a type="button" href="ActualizarU.html" class="btn btn-success">Salir</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        
 		<!-- End Banner Area -->
 		<br>
 		<!-- Start Footer Top Area -->
@@ -290,7 +268,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-sm-6 col-md-6">
 						<div class="single-widget">
-							<a href="index.html">
+							<a href="index-2.html">
 								<img src="imagenes/LogoUneme.ico" alt="">
 							</a>
 							<p>Sobre Nosotros:</p>
@@ -425,29 +403,5 @@
         <script src="assets/js/custom.js"></script>
 		<!-- Custom JS -->
 		<script src="assets/js/all.min.js"></script>
-
-		<script>
-		function show() {
-			var p = document.getElementById('password');
-			p.setAttribute('type', 'text');
-		}
-		
-		function hide() {
-			var p = document.getElementById('password');
-			p.setAttribute('type', 'password');
-		}
-		
-		var pwShown = 0;
-		
-		document.getElementById("eye").addEventListener("click", function () {
-			if (pwShown == 0) {
-				pwShown = 1;
-				show();
-			} else {
-				pwShown = 0;
-				hide();
-			}
-		}, false);
-		</script>
     </body>
 </html>
