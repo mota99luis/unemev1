@@ -140,85 +140,9 @@
 								</center>
 								<form action="#" method="post" enctype="multipart/form-data" class="row g-3 formulario mt-5 border border-2 rounded-3 p-5 bg-light was-validated">
 									
-									<h2>Paso 1</h2>
-									<h3>Datos Generales</h3>
-									<div class="col-md-4">
-										<label class="letra" for="P_nombre">Nombre:</label>
-										<input type="text" name="P_nombre" id="P_nombre" class="form-control" placeholder="Nombre" minlength="2" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="P_app">Apellido Paterno:</label>
-										<input type="text" name="P_app" id="P_app" class="form-control" placeholder="Apellido Paterno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-									<div class="col-md-4">
-										<label class="letra" for="ap_materno">Apellido Materno:</label>
-										<input type="text" name="P_apm" id="P_apm" class="form-control" placeholder="Apellido Materno" minlength="3" maxlength="40" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-                                    <div class="col-md-4">
-										<label  class="letra">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
-											<path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
-										</svg>
-										Teléfono:</label>
-										<!-- <input type="tel" name="P_telefono" id="P_telefono" class="form-control" placeholder="Numero Telefonico" pattern = "^ \ d {3} - \ d {3} - \ d {4} $" required> -->
-                                        <input type="tel" id="phone" name="phone" class="form-control" size="20"  minlength="9" maxlength="14" placeholder="222-333-4455" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                                    </div>
-                                    <div class="col-md-4">
-										<label class="letra" for="P_edad">Edad:</label>
-										<input type="number" name="P_edad" id="P_edad" class="form-control" placeholder="Edad" minlength="3" maxlength="40" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Ingrese solo numeros" required>
-									</div>
-
-									<div class="col-md-4">
-										<label class="letra" for="P_fecha_nac">Fecha de Nacimiento:</label>
-										<input type="date" name="P_fecha_nac" id="P_fecha_nac" class="form-control" title="Ingrese solo letras" required>
-									</div>
-
-                                    <div class="col-md-4">
-										<label class="letra" for="P_genero">Género:</label>
-										<select name="" id=""  class="form-select form-select lg" required>
-											<option value="" ></option>
-											<option value="Femenino">Femenino</option>
-											<option value="Masculino">Masculino</option>
-										</select>
-									</div>
-
-                                    <div class="col-md-4">
-										<label class="letra" for="CURP">CURP:</label>
-										<input type="text" name="CURP" id="CURP" class="form-control" minlength="18" maxlength="18" placeholder="CURP"  pattern="[A-Za-z0-9]+" required>
-                                    </div>
-
-									<div class="col-md-4">
-										<label class="letra" for="correo">Correo:</label>
-										<input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@hotmail.com" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
-                                    </div>
-
-									<div class="col-md-6">
-										<label class="letra" for="P_genero">Grado Escolar:</label>
-										<select name="" id="" class="form-control" required>
-											<option value="" ></option>
-											<option value="Kinder">Kinder</option>
-											<option value="Primaria">Primaria</option>
-											<option value="Secundaria">Secundaria</option>
-											<option value="Preparatoria">Bachillerato/Preparatoria</option>
-											<option value="Universidad">Universiadad</option>
-											<option value="Maestria">Maestria</option>
-											<option value="Doctorado">Doctorado</option>
-										</select>
-									</div>
-
-									<div class="col-md-6">
-										<label class="letra" for="Ocupacion">Ocupación:</label>
-										<input type="text" name="Ocupacion" id="Ocupacion" class="form-control" placeholder="Ocupación" minlength="2" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
-
-									<div class="col-md-6">
-										<label class="letra" for="CURP">Dirección:</label>
-										<input type="text" name="direccion" id="direccion" class="form-control" placeholder="Dirección"  required>
-                                    </div>
-									<div class="col-md-6">
-										<label class="letra" for="P_nombre">Municipio:</label>
-										<input type="text" name="Municipio" id="Municipio" class="form-control" placeholder="Municipio" pattern="[A-Za-z\sáéíóú]+" title="Ingrese solo letras" required>
-									</div>
+									<h2>Paso 2</h2>
+									<h3>Datos de Unidad</h3>
+									
                                 
 									<!-- <div class="col-md-6">
 										<svg aria-hidden="true" id="eye" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
@@ -241,9 +165,72 @@
 										<label for="P_fecha_alta">Fecha de Alta:</label>
 										<input type="date" name="P_fecha_alta" id="P_fecha_alta" class="form-control" placeholder="Apellido Materno" minlength="3" maxlength="40"  title="Ingrese solo letras" >
 									</div> -->
-									
+									<div class="col-md-4">
+										<label  class="letra" for="Unidad">Unidad:</label>
+										<select name="" id="" class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="Unidad">Unidad1</option>
+											<option value="Unidad">Unidad2</option>
+											<option value="Unidad">Unidad3</option>
+											
+										</select>
+									</div>
+									<div class="col-md-4">
+										<label class="letra" for="Unidad">Estatus:</label>
+										<select name="" id=""  class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="Unidad">Activo</option>
+											<option value="Unidad">Inactivo</option>
+										</select>
+									</div>
+									<div class="col-md-4">
+										<label class="letra" for="">Droga:</label>
+										<select name="" id=""  class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="">Droga1</option>
+											<option value="">Droga2</option>
+										</select>
+									</div>
+
+									<div class="col-md-4">
+										<label class="letra" for="">Procedencia:</label>
+										<select name="" id=""  class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="">Lugar1</option>
+											<option value="">Lugar2</option>
+										</select>
+									</div>
+									<div class="col-md-4">
+										<label class="letra" for="">Referencia:</label>
+										<select name="" id="" class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="">Lugar1</option>
+											<option value="">Lugar2</option>
+										</select>
+									</div>
+									<div class="col-md-4">
+										<label class="letra" for="">Servicios:</label>
+										<select name="" id=""  class="form-select form-select lg" required>
+											<option value="" ></option>
+											<option value="">Servicio1</option>
+											<option value="">Servicio2</option>
+										</select>
+									</div>
+
+                                    <div class="col-md-6">
+                                        <label class="letra" for="P_fecha_baja">Fecha de Baja:</label>
+                                        <input type="date" name="P_fecha_baja" id="P_fecha_baja" class="form-control" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="letra" for="P_fecha_alta">Fecha de Alta:</label>
+                                        <input type="date" name="P_fecha_alta" id="P_fecha_alta" class="form-control">
+                                    </div>
 									<div class="col-md-12">
-										<a href="pacienteActualizar02.html" class="btn btn-success text-white" type="submit" name="enviar">Siguiente</a>
+										<label class="letra" for="">Observaciones:</label>
+										<textarea name="comentario" class="form-control"></textarea>
+									</div>
+									<div class="col-md-12">
+										<a href="vistaPaciente.html" class="btn btn-success text-white" type="submit" name="enviar">Actualizar</a>
 									</div>
 								</form>
 
